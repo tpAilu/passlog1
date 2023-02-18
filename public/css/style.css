@@ -1,0 +1,127 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100%;
+	background-color: #2f4960;
+	background-image: linear-gradient(to bottom right, #4d779b 10%, #102040);
+}
+
+.navbar {
+	background-color: #0f2d47;
+}
+
+.navbar.foot {
+	background-color: #0b1a37;
+}
+
+.navbar-brand {
+	color: chartreuse;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	font-weight: bolder;
+	letter-spacing: 3px;
+}
+
+.navbar-brand img {
+	width: 80px;
+	height: 55px;
+}
+
+small {
+	font-size: 25px;
+}
+
+#foot small {
+	font-size: 15px;
+}
+
+.nav-link {
+	color: #fbbd20;
+	font-family: 'Dosis', sans-serif;
+	font-size: 17px;
+	letter-spacing: 2px;
+}
+
+#logo {
+	color: white;
+}
+
+.heading {
+	margin-top: 85px;
+	margin-bottom: 50px;
+	padding: 20px;
+}
+
+.form {
+	margin-bottom: 150px;
+}
+
+form {
+	width: 100%;
+}
+
+form,
+label {
+	text-transform: capitalize;
+}
+
+label {
+	font-family: 'Michroma', sans-serif;
+	letter-spacing: 1px;
+	text-shadow: 1px 1px 3px black;
+	color: gold;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 70px;
+	letter-spacing: 4px;
+	color: #fa8434;
+	text-align: center;
+	text-shadow: 2px 2px 5px #2f0505;
+}
+
+.imglogo {
+	width: 100%;
+	margin-top: 35px;
+	margin-left: 5px;
+}
+
+/* Users page */
+
+.users {
+	margin-bottom: 500px;
+}
+
+li {
+	font-family: 'Michroma', sans-serif;
+	color: #fff;
+	text-transform: capitalize;
+	font-size: 12px;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+}
+
+footer {
+	margin-top: 3px;
+	width: 100%;
+}
+
+#foot {
+	font-family: 'Dosis', sans-serif;
+	letter-spacing: 2px;
+	color: chartreuse;
+	text-align: center;
+	padding: 3px;
+}
+
+/*
+font-family: 'Dosis', sans-serif;
+font-family: 'Michroma', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'New Tegomin', serif;
+*/
